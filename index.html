@@ -7,6 +7,36 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <style>
+            /* desktop */
+            @media only screen and (min-width: 960px){
+                .container{
+                    width: 960px;
+                }
+                
+            }
+            /* midsizes */
+            @media only screen and (max-width: 960px){
+                .container{
+                    width: 600px;
+                }
+            }
+            /* mobile */
+            @media only screen and (max-width: 600px){
+                .container{
+                    width: 100%;
+                }
+                .header-left{
+                    width: 100%;
+                }
+                .header-right{
+                    width: 100%;
+                }
+                .advance-table .pink-image{
+                    width: 100%;
+                }
+            }
+          </style>
     </head>
     <body>
         <!-- start of html email -->
@@ -22,14 +52,14 @@
                                 <!--start of left column -->
                                 <table class="header-left" width="50%" align="left" cellspacing="0" cellpadding="0" border="0">
                                     <tr>
-                                        <td style="padding: 15px 15px 60px 15px; color: white; background: linear-gradient(90deg, rgba(101,255,253,1) 0%, rgba(34,150,238,1) 100%);
+                                        <td style="padding: 36px 15px 70px 15px; color: white; background: linear-gradient(90deg, rgba(101,255,253,1) 0%, rgba(34,150,238,1) 100%);
                                         font-family: 'open sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;">
-                                            <img src="images/logo.png">
+                                            <img src="https://i.postimg.cc/25GMjFq6/logo.png" alt="H logo">
                                             <h2 style="font-size: 30px; margin 0;
                                             font-weight: 300; line-height: 1;">Get ready for</h2>
                                             <h1 style="font-size: 80px; margin 0; line-height: .5;">HERO</h1>
                                             <p style=" font-style: italic;font-size: 15px; 
-                                            margin 0; line-height: 1.5; padding: 0px 0px 15px;">It seems like hundreds of new iWatch apps pup up
+                                            margin 0; line-height: 1.5; padding: 0px 0px 15px;">It seems like hundreds of new iWatch apps pop up
                                                 every week, but which ones should you bother trying?
                                             </p>
                                             <a href="#" class="ghost-btn" style="font-size: 12px; border-radius: 3px; 
@@ -46,7 +76,7 @@
                                     <tr>
                                         <td style="font-family: 'open sans', 'Helvetica Neue', 
                                         Helvetica, Arial, 'Lucida Grande', sans-serif; color: #7d7d7d;">
-                                            <table class="container" width="100%" align="center"
+                                            <table class="menu-table" width="100%" align="center"
                                             cellspacing="0" cellpadding="0" border="0" style="padding: 20px;">
                                                 <tr>
                                                     <td align="center">
@@ -67,8 +97,8 @@
                                     </tr>
                                     <tr>
                                         <td style="padding-top: 16.5px;" align="center" valign="bottom">
-                                            <img src="images/smartwatch.png" 
-                                            style="position: relative; bottom: -4px;"></td>
+                                            <img src="https://i.postimg.cc/hvmqGQW5/smartwatch.png" 
+                                            style="position: relative; bottom: -16.5px;"></td>
                                     </tr>
                                 </table>
                                 <!--end of right column -->
@@ -77,7 +107,7 @@
                         <!--end of header row -->
                         <!--start of "lets you" row -->
                         <tr>
-                            <td style="background: #fafafa;">
+                            <td class="lets-you-row" style="background: #fafafa;">
                                 <h3 align="center" style="font-family: 'open sans', 'Helvetica Neue', 
                                 Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 100; 
                                 font-size: 24px; padding: 25px 0 20px 0;">Hero lets you...</h3>
@@ -91,7 +121,7 @@
                                     cellspacing="0" align="left" width="33.33%"
                                     style="padding:0;" >
                                     <tr>
-                                        <td><img src="images/bell_icon.png"</td>
+                                        <td><img src="https://i.postimg.cc/bNS70t5C/bell-icon.png" alt="bell icon"></td>
                                         <td style="font-family: 'open sans', 'Helvetica Neue', 
                                         Helvetica, Arial, 'Lucida Grande', sans-serif; 
                                         color: #333333; padding: 0 0 0 15px; 
@@ -120,7 +150,7 @@
                             <!--end of left column -->
                             <!--start of middle column -->
                             <table class="column-middle" border="0" cellspacing="0"
-                            cellpadding="0" align="left" width="200px"
+                            cellpadding="0" align="right" width="200px"
                             style="padding: 15px 15px 70px 15px;">
                         <tr>
                             <td>
@@ -128,7 +158,7 @@
                                 cellspacing="0" align="left" width="33.33%"
                                 style="padding:0;" >
                                 <tr>
-                                    <td><img src="images/share_icon.png"</td>
+                                    <td><img src="https://i.postimg.cc/506VZkP1/share-icon.png" alt="share icon"></td>
                                     <td style="font-family: 'open sans', 'Helvetica Neue', 
                                     Helvetica, Arial, 'Lucida Grande', sans-serif; 
                                     color: #333333; padding: 0 0 0 15px; 
@@ -157,7 +187,7 @@
                         <!--end of middle column-->
                         <!--start of right column -->
                         <table class="column-right" border="0" cellspacing="0"
-                        cellpadding="0" align="left" width="200px"
+                        cellpadding="0" align="center" width="200px"
                         style="padding: 15px 15px 70px 15px;" >
                     <tr>
                         <td>
@@ -165,7 +195,7 @@
                             cellspacing="0" align="left" 
                             style="padding:0;" >
                             <tr>
-                                <td><img src="images/wifi_icon.png"</td>
+                                <td><img src="https://i.postimg.cc/VkmcYN7K/wifi-icon.png" alt="wifi icon"></td>
                                 <td style="font-family: 'open sans', 'Helvetica Neue', 
                                 Helvetica, Arial, 'Lucida Grande', sans-serif; 
                                 color: #333333; padding: 0 0 0 15px; 
@@ -198,14 +228,15 @@
                     <!--start of advance row -->
                         <tr>
                             <td>
-                                <table class="pink_image" width="100%" cellpadding="0"
+                                <table class="advance-table" width="100%" cellpadding="0"
                                 cellspacing="0" align="left" border="0" style="padding: 20px;
                                 background: white;">
                                 <tr>
                                     <td align="center" style="font-family: 'open sans', 'Helvetica Neue', 
                                     Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 100; 
                                     font-size: 24px; padding: 30px 0 0px 0;">
-                                        <img src="images/image_head.jpg">
+                                        <img src="https://i.postimg.cc/Sx0wgKFy/image-head.jpg" class="pink-image"
+                                        alt="pink image">
                                     </td>
                                 </tr>
                                 </table>
@@ -237,7 +268,8 @@
                                     </tr>
                                     <tr>
                                         <td align="right">
-                                            <img src="images/appstore.png" style="padding: 10px;">
+                                            <img src="https://i.postimg.cc/sxvtNQg2/appstore.png" style="padding: 10px;"
+                                            alt="appstore icon">
                                         </td>
                                     </tr>
                                 </table>
@@ -259,7 +291,7 @@
                                     </tr>
                                     <tr>
                                         <td align="left">
-                                            <img src="images/playstore.png">
+                                            <img src="https://i.postimg.cc/fytrvG8t/playstore.png" alt="playstore icon">
                                         </td>
                                     </tr>
                                 </table>
@@ -279,7 +311,7 @@
                                 background: #141414; ">
                                 <tr>
                                     <td align="center">
-                                        <img src="images/one_app.jpg" style="100%">
+                                        <img src="https://i.postimg.cc/T36Tp0Pq/one-app.jpg" alt="image about watch" style="100%">
                                     </td>
                                 </tr>
                                 </table>
@@ -299,18 +331,18 @@
                         <!--end of joined heading-->
                         <tr>
                             <td>
-                                <table class="one_solution" width="100%" cellpadding="0"
+                                <table class="joined-together" width="100%" cellpadding="0"
                                 cellspacing="0" align="left" border="0" style="padding: 25px 0;
                                 background: white;">
                                 <tr>
                                     <td>
                                         <!--start of column-->
-                                        <table class="column-table" width="33.33%" cellpadding="0"
+                                        <table class="column-top" width="33.33%" cellpadding="0"
                                 cellspacing="0" align="center" border="0" style="padding: 40px 0px 30px 0px;
                                 background: white;">
                                 <tr>
                                     <td align="center">
-                                        <img src="images/watch_screen.png">
+                                        <img src="https://i.postimg.cc/tChjQ6z1/watch-screen.png" alt="pink watch">
                                     </td>
                                 </tr>
                                 <tr>
@@ -345,12 +377,12 @@
                                 <!--start of column-->
                                 <tr>
                                     <td>
-                                        <table class="column-table" width="33.33%" cellpadding="0"
+                                        <table class="column-middle" width="33.33%" cellpadding="0"
                                 cellspacing="0" align="center" border="0" style="padding: 40px 0px 30px 0px;
                                 background: white; ">
                                 <tr>
                                     <td align="center">
-                                        <img src="images/watch_screen.png">
+                                        <img src="https://i.postimg.cc/tChjQ6z1/watch-screen.png" alt="pink watch">
                                     </td>
                                 </tr>
                                 <tr>
@@ -387,12 +419,12 @@
                                 <!--start of column-->
                                 <tr>
                                     <td>
-                                        <table class="column-table" width="33.33%" cellpadding="0"
+                                        <table class="column-bottom" width="33.33%" cellpadding="0"
                                 cellspacing="0" align="center" border="0" style="padding: 40px 0px 30px 0px;
                                 background: white; ">
                                 <tr>
                                     <td align="center">
-                                        <img src="images/watch_screen.png">
+                                        <img src="https://i.postimg.cc/tChjQ6z1/watch-screen.png" alt="pink watch">
                                     </td>
                                 </tr>
                                 <tr>
@@ -443,7 +475,7 @@
                                 <tr>
                                     <td>
                                         <!--start of column-->
-                                        <table class="column-table" width="50%" cellpadding="0"
+                                        <table class="left-column" width="50%" cellpadding="0"
                                 cellspacing="0" align="left" border="0" style="padding: 25px 40px;
                                 background: #fafafa;">
                                     <tr>
@@ -453,7 +485,7 @@
                                 cellspacing="0" align="left" border="0" style="
                                 background: #fafafa; padding: 0 0px 0">
                                         <td>
-                                            <img src="images/phone_icon.png">
+                                            <img src="https://i.postimg.cc/h4XDwhwx/phone-icon.png" alt="phone icon">
                                         </td>
                                         <td style="font-family: 'open sans', 'Helvetica Neue', 
                                         Helvetica, Arial, 'Lucida Grande', sans-serif; 
@@ -479,7 +511,7 @@
                                 </table>
                                 <!--end of column-->
                                 <!--start of column-->
-                                <table class="column-table" width="50%" cellpadding="0"
+                                <table class="column-right" width="50%" cellpadding="0"
                                 cellspacing="0" align="left" border="0" style="padding: 25px 40px;
                                 background: #fafafa;">
                                     <tr>
@@ -489,7 +521,7 @@
                                 cellspacing="0" align="left" border="0" style="
                                 background: #fafafa; padding: 0px;">
                                         <td>
-                                            <img src="images/retina_icon.png">
+                                            <img src="https://i.postimg.cc/qMnkJSpv/retina-icon.png" alt="retina icon">
                                         </td>
                                         <td style="font-family: 'open sans', 'Helvetica Neue', 
                                         Helvetica, Arial, 'Lucida Grande', sans-serif; 
@@ -529,7 +561,7 @@
                                 <tr>
                                     <td>
                                         <!--start of column-->
-                                        <table class="column-table" width="50%" cellpadding="0"
+                                        <table class="column-left" width="50%" cellpadding="0"
                                 cellspacing="0" align="left" border="0" style="padding: 25px 40px;
                                 background: #fafafa;">
                                     <tr>
@@ -539,7 +571,7 @@
                                 cellspacing="0" align="left" border="0" style="
                                 background: #fafafa; padding: 0 0px 0">
                                         <td>
-                                            <img src="images/check_icon.png">
+                                            <img src="https://i.postimg.cc/sfLFZcTG/check-icon.png" alt="check icon">
                                         </td>
                                         <td style="font-family: 'open sans', 'Helvetica Neue', 
                                         Helvetica, Arial, 'Lucida Grande', sans-serif; 
@@ -565,7 +597,7 @@
                                 </table>
                                 <!--end of column-->
                                 <!--start of column-->
-                                <table class="column-table" width="50%" cellpadding="0"
+                                <table class="column-right" width="50%" cellpadding="0"
                                 cellspacing="0" align="left" border="0" style="padding: 25px 40px;
                                 background: #fafafa;">
                                     <tr>
@@ -575,7 +607,7 @@
                                 cellspacing="0" align="left" border="0" style="
                                 background: #fafafa; padding: 0px;">
                                         <td>
-                                            <img src="images/settings_icon.png">
+                                            <img src="https://i.postimg.cc/zGF8Whbm/settings-icon.png" alt="settings icon">
                                         </td>
                                         <td style="font-family: 'open sans', 'Helvetica Neue', 
                                         Helvetica, Arial, 'Lucida Grande', sans-serif; 
@@ -615,7 +647,7 @@
                                 <tr>
                                     <td>
                                         <!--start of column-->
-                                        <table class="column-table" width="50%" cellpadding="0"
+                                        <table class="column-left" width="50%" cellpadding="0"
                                 cellspacing="0" align="left" border="0" style="padding: 25px 40px;
                                 background: #fafafa;">
                                     <tr>
@@ -625,7 +657,7 @@
                                 cellspacing="0" align="left" border="0" style="
                                 background: #fafafa; padding: 0 0px 0">
                                         <td>
-                                            <img src="images/menu_icon.png">
+                                            <img src="https://i.postimg.cc/kG0hYTHj/menu-icon.png" alt="menu icon">
                                         </td>
                                         <td style="font-family: 'open sans', 'Helvetica Neue', 
                                         Helvetica, Arial, 'Lucida Grande', sans-serif; 
@@ -651,7 +683,7 @@
                                 </table>
                                 <!--end of column-->
                                 <!--start of column-->
-                                <table class="column-table" width="50%" cellpadding="0"
+                                <table class="column-right" width="50%" cellpadding="0"
                                 cellspacing="0" align="left" border="0" style="padding: 25px 40px;
                                 background: #fafafa;">
                                     <tr>
@@ -661,7 +693,7 @@
                                 cellspacing="0" align="left" border="0" style="
                                 background: #fafafa; padding: 0px;">
                                         <td>
-                                            <img src="images/share_icon.png">
+                                            <img src="https://i.postimg.cc/506VZkP1/share-icon.png" alt="share icon">
                                         </td>
                                         <td style="font-family: 'open sans', 'Helvetica Neue', 
                                         Helvetica, Arial, 'Lucida Grande', sans-serif; 
@@ -698,18 +730,94 @@
                         <!--end of 6 items row -->
                         <!--start of interest row -->
                         <tr>
-                            <td>
-                                
+                            <td class="interest-table" align="center" style="padding: 15px 15px 80px 15px; 
+                            color: white; background: linear-gradient(90deg, rgba(101,255,253,1) 0%, rgba(34,150,238,1) 100%);
+                            font-family: 'open sans', 
+                            'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;">
+                                <h3 align="center" style="font-family: 'open sans', 'Helvetica Neue', 
+                                Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 100; 
+                                font-size: 24px; padding: 25px 0 15px 0;">Interested in our App?</h3>
+                                <p align="center" style="font-family: 'open sans', 'Helvetica Neue', 
+                                Helvetica, Arial, 'Lucida Grande', sans-serif;
+                                font-weight: 400; font-size: 14px; 
+                                line-height: 1.8; color: white; margin: 0;
+                                padding: 5px 0 50px 0; font-style: italic;">Download our app today at the Google Play Store, or
+                                    iOS store. </p>
+                                    <a href="#" style="border-radius: 4px; border: 2px solid white; 
+                                    text-decoration: none; color: white;
+                                    padding: 5px 15px; font-size: .7rem; font-family: 'open sans', 'Helvetica Neue', 
+                                    Helvetica, Arial, 'Lucida Grande', sans-serif;">REQUEST A QUOTE</a>
                             </td>
                         </tr>
                         <!--end of interest row -->
-                        <!--start of main row -->
+                        <!--start of footer row -->
                         <tr>
                             <td>
-
+                                <table class="footer-table" width="100%" cellpadding="0"
+                                cellspacing="0" align="center" border="0" style="padding: 15px 0 30px 0;
+                                background: #fafafa;">
+                                <tr>
+                                    <td align="center">
+                                        <h2 style="font-family: 'open sans', 'Helvetica Neue', 
+                                        Helvetica, Arial, 'Lucida Grande', sans-serif;">HERO</h2>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table class="icon-table" width="250px" cellpadding="0"
+                                cellspacing="0" align="center" border="0" style="padding: 10px 0 30px 0;
+                                background: #fafafa;">
+                                    <tr>
+                                        <td align="center">
+                                            <a href="http://twitter.com/">
+                                                <img src="https://i.postimg.cc/wxRz2ZyQ/twitter-icon.png" alt="twitter logo">
+                                            </a>
+                                        </td>
+                                        <td align="center">
+                                            <a href="http://facebook.com/">
+                                                <img src="https://i.postimg.cc/Cxj9XVSb/facebook-icon.png" alt="facebook logo">
+                                            </a>
+                                        </td>
+                                        <td align="center">
+                                            <a href="http://google.com/">
+                                                <img src="https://i.postimg.cc/D0HtkvSP/google-icon.png" alt="google logo">
+                                            </a>
+                                        </td>
+                                        <td align="center">
+                                            <a href="http://pinterest.com/">
+                                                <img src="https://i.postimg.cc/SQHSpkFP/pinterest-icon.png" alt="pinterest logo">
+                                            </a>
+                                        </td>
+                                        <td align="center">
+                                            <a href="http://linkedin.com/">
+                                                <img src="https://i.postimg.cc/JhMSWdzv/linkedin-icon.png" alt="linkedin logo">
+                                            </a>
+                                        </td>
+                                        <td align="center">
+                                            <a href="http://youtube.com/">
+                                                <img src="https://i.postimg.cc/mgjWhGJB/youtube-icon.png" alt="youtube logo">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <p style="font-family: 'open sans', 'Helvetica Neue', 
+                                        Helvetica, Arial, 'Lucida Grande', sans-serif;
+                                        font-weight: 400; font-size: 10px; 
+                                        line-height: 1.0; color: #b2bbba; margin: 0;
+                                        padding: 5px 0 15px 0;">
+                                            © 20XX All rights Reserved - Yourcompany. Is your inbox
+                                            overflowing? <a href="#" style="color: #2792ec;">Unsubscribe</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
                             </td>
                         </tr>
-                        <!--end of main row -->
+                        <!--end of footer row -->
 
                     </table>
                     <!--end of container -->
